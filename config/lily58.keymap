@@ -53,11 +53,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1  &kp F2     &kp F3     &kp F4           &kp F5     &kp F6                       &kp F7         &kp F8        &kp F9    &kp F10    &kp F11  &kp F12
-&trans  &none      &kp UP     &kp PRINTSCREEN  &none      &none                        &kp BACKSLASH  &none         &none     &none      &none    &kp RIGHT_BRACKET
-&trans  &kp LEFT   &kp DOWN   &kp RIGHT        &new_fn    &none                        &kp LEFT       &kp UP_ARROW  &kp DOWN  &kp RIGHT  &none    &none
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)        &kp LC(V)  &none   &none        &none   &none          &none         &none     &none      &none    &trans
-                              &trans           &trans     &trans  &kp ENTER    &trans  &trans         &trans        &trans
+&kp F1  &kp F2     &kp F3     &kp F4           &kp F5     &kp F6                       &kp F7    &kp F8        &kp F9    &kp F10    &kp F11        &kp F12
+&trans  &none      &kp UP     &kp PRINTSCREEN  &none      &none                        &none     &none         &none     &none      &none          &kp RIGHT_BRACKET
+&trans  &kp LEFT   &kp DOWN   &kp RIGHT        &new_fn    &none                        &kp LEFT  &kp UP_ARROW  &kp DOWN  &kp RIGHT  &none          &kp GRAVE
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)        &kp LC(V)  &none   &none        &none   &none     &none         &none     &none      &kp BACKSLASH  &trans
+                              &trans           &trans     &trans  &kp ENTER    &trans  &trans    &trans        &trans
             >;
 
             label = "Explore";
@@ -65,7 +65,7 @@
 
         edit {
             bindings = <
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &rgb_ug RGB_TOG  &kp K_MUTE  &kp C_VOLUME_DOWN                          &kp C_VOLUME_UP  &kp HASH  &kp PERCENT  &none  &kp PRINTSCREEN  &kp EQUAL
+&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &rgb_ug RGB_TOG  &kp K_MUTE  &kp C_VOLUME_DOWN                          &kp C_VOLUME_UP  &kp HASH  &kp PERCENT  &none  &kp PRINTSCREEN  &kp INSERT
 &trans  &none                 &none                 &none            &none       &none                                      &none            &none     &none        &none  &none            &none
 &trans  &none                 &none                 &none            &none       &none                                      &none            &none     &none        &none  &none            &none
 &trans  &none                 &none                 &none            &none       &none              &none     &kp K_COFFEE  &none            &none     &none        &none  &none            &trans
