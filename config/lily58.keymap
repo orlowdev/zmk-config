@@ -34,11 +34,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESCAPE      &kp N1  &kp N2  &kp N3            &kp N4         &kp N5                                     &kp N6         &kp N7         &kp N8             &kp N9   &kp N0    &kp MINUS
-&lt 3 TAB       &kp Q   &kp W   &kp E             &kp R          &kp T                                      &kp Y          &kp U          &kp I              &kp O    &kp P     &kp LBKT
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D             &kp F          &kp G                                      &kp H          &kp J          &kp K              &kp L    &kp SEMI  &kp SQT
-&mo 1           &kp Z   &kp X   &kp C             &kp V          &kp B         &kp DELETE    &kp BACKSPACE  &kp N          &kp M          &kp COMMA          &kp DOT  &kp FSLH  &mo 2
-                                &kp LEFT_CONTROL  &kp LEFT_META  &kp LEFT_ALT  &kp SPACE     &kp SPACE      &kp RIGHT_ALT  &kp RIGHT_WIN  &kp RIGHT_CONTROL
+&kp ESCAPE      &kp N1  &kp N2  &kp N3        &kp N4        &kp N5                               &kp N6  &kp N7    &kp N8         &kp N9   &kp N0    &kp MINUS
+&lt 3 TAB       &kp Q   &kp W   &kp E         &kp R         &kp T                                &kp Y   &kp U     &kp I          &kp O    &kp P     &kp LBKT
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp F         &kp G                                &kp H   &kp J     &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z   &kp X   &kp C         &kp V         &kp B   &kp DELETE    &kp BACKSPACE  &kp N   &kp M     &kp COMMA      &kp DOT  &kp FSLH  &kp RCTRL
+                                &kp LEFT_GUI  &kp LEFT_ALT  &mo 1   &kp SPACE     &kp ENTER      &mo 2   &kp RALT  &kp RIGHT_GUI
             >;
 
             label = "Base";
@@ -53,11 +53,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1  &kp F2     &kp F3     &kp F4           &kp F5     &kp F6                       &kp F7    &kp F8        &kp F9    &kp F10    &kp F11        &kp F12
-&trans  &none      &kp UP     &kp PRINTSCREEN  &none      &none                        &none     &none         &none     &none      &none          &kp RIGHT_BRACKET
-&trans  &kp LEFT   &kp DOWN   &kp RIGHT        &new_fn    &none                        &kp LEFT  &kp UP_ARROW  &kp DOWN  &kp RIGHT  &none          &kp GRAVE
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)        &kp LC(V)  &none   &none        &none   &none     &none         &none     &none      &kp BACKSLASH  &trans
-                              &trans           &trans     &trans  &kp ENTER    &trans  &trans    &trans        &trans
+&kp F1  &kp F2     &kp F3     &kp F4           &kp F5     &kp F6                    &kp F7    &kp F8        &kp F9    &kp F10    &kp F11        &kp F12
+&trans  &none      &kp UP     &kp PRINTSCREEN  &none      &none                     &none     &none         &none     &none      &kp EQUAL      &kp RIGHT_BRACKET
+&trans  &kp LEFT   &kp DOWN   &kp RIGHT        &new_fn    &none                     &kp LEFT  &kp UP_ARROW  &kp DOWN  &kp RIGHT  &none          &kp GRAVE
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)        &kp LC(V)  &none   &none     &none   &none     &none         &none     &none      &kp BACKSLASH  &trans
+                              &trans           &trans     &trans  &trans    &trans  &trans    &trans        &trans
             >;
 
             label = "Explore";
